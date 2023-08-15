@@ -35,8 +35,8 @@ iface = gr.Interface(
     fn=translate_code,
     inputs=[
         gr.inputs.Textbox(label="Enter code to translate"),
-        gr.inputs.Textbox(label="Source Language (e.g., English)"),
-        gr.inputs.Textbox(label="Target Language (e.g., German)")
+        gr.inputs.Textbox(label="Source Language (e.g., C++,python,java...)"),
+        gr.inputs.Textbox(label="Target Language (e.g., C++,python,java...)")
     ],
     outputs=gr.outputs.Textbox(label="Translated Code"),
     title="Code Translator",
