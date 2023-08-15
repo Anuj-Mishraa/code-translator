@@ -24,7 +24,7 @@ iface = gr.Interface(
     ],
     outputs=gr.outputs.Textbox(label="Translated Code"),
     title="Code Translator",
-    description="Translate code snippets between programming languages"
+    description="Translate code snippets between programming languages. Right now we are working on the saperate model for it, till then kindly use the openai api key for the refrence."
 )
 
 iface.launch()
